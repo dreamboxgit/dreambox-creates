@@ -1,0 +1,71 @@
+.sf-menu,.sf-menu * { margin: 0; padding: 0; list-style: none }
+
+.sf-menu a { text-decoration: none; font-family: "Droid Sans",sans-serif; font-weight: bold; font-size: 13px; text-transform: uppercase; color: #444 !important; }
+
+.sf-menu { line-height: 1.0 }
+
+.sf-menu ul { position: absolute; top: -999em; width: 10em }
+
+.sf-menu ul li { width: 100% }
+
+.sf-menu li:hover { visibility: inherit }
+
+.sf-menu li { float: left; position: relative }
+
+.sf-menu a { display: block; position: relative }
+
+.sf-menu li:hover ul,.sf-menu li.sfHover ul { left: 0; top: 2.5em; z-index: 99 }
+
+ul.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul { top: -999em }
+
+ul.sf-menu li li:hover ul,ul.sf-menu li li.sfHover ul { left: 10em; top: 0 }
+
+ul.sf-menu li li:hover li ul,ul.sf-menu li li.sfHover li ul { top: -999em }
+
+ul.sf-menu li li li:hover ul,ul.sf-menu li li li.sfHover ul { left: 10em; top: 0 }
+
+ul.sf-menu li a:hover { background: none; color: #ff4200 !important; }
+
+.sf-menu ul {  border-right: 1px solid #eee; border-top: 1px solid #eee }
+
+.sf-menu li { background: none; border-left: 1px solid #ccc; line-height: 18px;margin-right: 10px; padding-left: 10px }
+
+ul.sub-menu { -moz-box-shadow: 5px 5px #444;
+-webkit-box-shadow: 5px 5px #444;
+box-shadow: 5px 5px #444; }
+
+ul.sub-menu li a { padding: 10px; padding-bottom: 10px !important; }
+
+ul.sub-menu li { margin-right: 0; padding: 0 !important; border-top: 1px solid #ccc;border-right: 1px solid #ccc !important;}
+
+.sf-menu li li { background: url(images/body_bg.gif); border-bottom: 1px solid #eee; border-right: 1px solid #eee;  }
+
+.sf-menu li li a { font-size: 12px }
+
+.sf-menu li li li { background: #fff }
+
+.sf-menu li:hover,.sf-menu li.sfHover,.sf-menu a:focus,.sf-menu a:hover,.sf-menu a:active { background: #fff; outline: 0 }
+
+.sf-menu a.sf-with-ul { padding-right: 1.05em; min-width: 1px }
+
+.sf-sub-indicator { position: absolute; display: block; right: 2.8em; margin-top: -7px; top: 1.05em; width: 10px; height: 10px; text-indent: -999em; overflow: hidden; background: url('../images/superfish-arrow.png') no-repeat -10px -100px }
+
+a >.sf-sub-indicator { top: .8em; background-position: 0 -100px }
+
+a:focus >.sf-sub-indicator,a:hover >.sf-sub-indicator,a:active >.sf-sub-indicator,li:hover >a >.sf-sub-indicator,li.sfHover >a >.sf-sub-indicator { background-position: -10px -100px }
+
+.sf-menu ul .sf-sub-indicator { background-position: -10px 0 }
+
+.sf-menu ul a >.sf-sub-indicator { background-position: 0 0 }
+
+.sf-menu ul a:focus >.sf-sub-indicator,.sf-menu ul a:hover >.sf-sub-indicator,.sf-menu ul a:active >.sf-sub-indicator,.sf-menu ul li:hover >a >.sf-sub-indicator,.sf-menu ul li.sfHover >a >.sf-sub-indicator { background-position: -10px 0 }
+
+.sf-shadow ul { background: url('../images/shadow.png') no-repeat bottom right; padding: 0 8px 9px 0; -moz-border-radius-bottomleft: 17px; -moz-border-radius-topright: 17px; -webkit-border-top-right-radius: 17px; -webkit-border-bottom-left-radius: 17px }
+
+.sf-shadow ul.sf-shadow-off { background: transparent }
+
+ul.sub-menu { margin-left: 10px; margin-top: 12px;  }
+
+ul.sub-menu li:first-child { padding-top: 10px; border-top: 1px solid #ccc }
+
+.sf-menu { float: right; margin-top: 30px }

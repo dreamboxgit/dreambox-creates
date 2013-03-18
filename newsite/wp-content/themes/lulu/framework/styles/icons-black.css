@@ -1,0 +1,30 @@
+/* @override http://themes.siiimple.com/lulu/wp-content/themes/lulu/framework/styles/icons-black.css */
+
+h1#logo a:hover { color:#999; }
+a { color: #999; }
+p a { color:#999; }
+ul.clearfix li a { color: #999; }
+#menu-wrap .current-menu-item a{ color: #999; }
+#menu-wrap ul li a:hover { color: #999; }
+label small { color:#999 ; }
+#authorbox p a { color:#999  }
+ul#filters li a:hover { color:#999; }
+ul#filters li a.active { color:#999; }
+.tagcloud a { color: #999; }
+.pagination ul li.active a{  color: #999; }
+
+/*ICONS*/
+
+.nine.columns ul.blog-meta li.enlarge { background: url(images/blog-eye-black.png) left no-repeat;padding-top: 0px;padding-left: 25px; padding-right: 10px;margin-right: 10px;border-right: 1px solid #eee;}
+
+.nine.columns ul.blog-meta li.date { background: url(images/single-date-black.png) left no-repeat;padding-top: 0px;padding-left: 25px; padding-right: 10px;margin-right: 10px;border-right: 1px solid #eee;}
+
+.nine.columns ul.blog-meta li.visit { background: url(images/blog-link-black.png) left no-repeat;padding-top: 0px;padding-left: 30px; }
+
+/*BUTTON*/
+#info-block.row .four.columns a.nice.small.radius.blue.button,form#commentform.nice a.nice.small.radius.blue.button { background-color:#141414;border: 1px solid #000; }
+
+/*CONTROL*/
+.flex-control-nav li a {width: 13px; height: 13px; display: block; background: url(images/bgnav-black.png) no-repeat 0 0 !important; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a:hover {background-position: 0 -13px !important;}
+.flex-control-nav li a.active {background-position: 0 -26px !important; cursor: default;}

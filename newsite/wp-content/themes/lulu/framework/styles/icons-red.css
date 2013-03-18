@@ -1,0 +1,27 @@
+h1#logo a:hover { color:#bb0e0e; }
+a { color: #bb0e0e; }
+p a { color:#bb0e0e; }
+ul.clearfix li a { color: #bb0e0e; }
+#menu-wrap .current-menu-item a{ color: #bb0e0e; }
+#menu-wrap ul li a:hover { color: #bb0e0e; }
+label small { color:#bb0e0e ; }
+#authorbox p a { color:#bb0e0e  }
+ul#filters li a:hover { color:#bb0e0e; }
+ul#filters li a.active { color:#bb0e0e; }
+.tagcloud a { color: #bb0e0e; }
+.pagination ul li.active a{  color: #bb0e0e; }
+
+/*ICONS*/
+.nine.columns ul.blog-meta li.enlarge { background: url(images/blog-eye-red.png) left no-repeat;padding-top: 0px;padding-left: 25px; padding-right: 10px;margin-right: 10px;border-right: 1px solid #eee;}
+
+.nine.columns ul.blog-meta li.date { background: url(images/single-date-red.png) left no-repeat;padding-top: 0px;padding-left: 25px; padding-right: 10px;margin-right: 10px;border-right: 1px solid #eee;}
+
+.nine.columns ul.blog-meta li.visit { background: url(images/blog-link-red.png) left no-repeat;padding-top: 0px;padding-left: 30px; }
+
+/*BUTTON*/
+#info-block.row .four.columns a.nice.small.radius.blue.button,form#commentform.nice a.nice.small.radius.blue.button  { background-color: #e91c21;border: 1px solid #b90b0b; }
+
+/*CONTROL*/
+.flex-control-nav li a {width: 13px; height: 13px; display: block; background: url(images/bgnav-red.png) no-repeat 0 0 !important; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a:hover {background-position: 0 -13px !important;}
+.flex-control-nav li a.active {background-position: 0 -26px !important; cursor: default;}
